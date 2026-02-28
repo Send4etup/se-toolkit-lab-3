@@ -36,3 +36,4 @@ async def post_learner(
 ):
     """Create a new learner."""
     return await create_learner(session, name=body.name, email=body.email)
+
