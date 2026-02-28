@@ -24,7 +24,7 @@ async def get_learners(
 ):
     """Get all learners, optionally filtered by enrollment date."""
     return await read_learners(session, enrolled_after)
-
+ 
 # ===
 # PART B: POST endpoint
 # ===
